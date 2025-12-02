@@ -154,6 +154,7 @@ if st.button("Actualizar modelo con datos del bucket"):
 # =========================================================
 # SECCIÓN FINAL: ESTADO ACTUAL DEL MODELO
 # =========================================================
+# actualización
 st.markdown("---")
 st.subheader("Estado actual del modelo")
 st.write(f"R² actual: **{r2.get():.3f}**")
